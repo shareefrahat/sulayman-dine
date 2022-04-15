@@ -5,7 +5,7 @@ const Footer = () => {
   const today = new Date();
   const year = today.getFullYear();
   return (
-    <footer className="mt-20 bg-slate-900 text-slate-100">
+    <footer className="mt-0 bg-slate-900 text-slate-100">
       <section className=" flex flex-col md:flex-row-reverse justify-evenly items-center py-10">
         <div>
           <h5 className="text-md text-center md:text-left text-orange-500 font-bold">

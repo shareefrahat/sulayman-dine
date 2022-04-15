@@ -5,7 +5,7 @@ import { ShoppingCartIcon } from "@heroicons/react/outline";
 const Header = () => {
   return (
     <header className="sticky top-0 bg-white">
-      <div className="flex flex-row justify-between items-center py-3 md:py-4 px-5 md:px-10 shadow-lg ">
+      <div className="flex flex-row justify-between items-center py-2 md:py-3  px-5 md:px-10 shadow-lg ">
         <div>
           <img className="w-32 md:w-36" src={logo} alt="" />
         </div>
