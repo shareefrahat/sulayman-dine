@@ -5,7 +5,7 @@ const Svgwave = () => {
   return (
     <div>
       <div>
-        <img className="w-full h-10 md:h-20" src={wave} alt="" />
+        <img className="w-full h-10 md:h-28" src={wave} alt="" />
       </div>
     </div>
   );
