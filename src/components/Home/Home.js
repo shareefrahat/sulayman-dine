@@ -1,6 +1,7 @@
 import React from "react";
 import bgBanner from "../../images/bannerbackground.png";
 import Features from "../Features/Features";
+import Meals from "../Meals/Meals";
 
 const Home = () => {
   return (
@@ -24,7 +25,9 @@ const Home = () => {
           </span>
         </div>
       </section>
-      <section>Meal components</section>
+      <section>
+        <Meals></Meals>
+      </section>
       <section>
         <Features></Features>
       </section>
