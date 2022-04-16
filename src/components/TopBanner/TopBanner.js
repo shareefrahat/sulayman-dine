@@ -1,9 +1,7 @@
 import React from "react";
 import bgBanner from "../../images/bannerbackground.png";
-import Features from "../Features/Features";
-import Meals from "../Meals/Meals";
 
-const Home = () => {
+const TopBanner = () => {
   return (
     <div>
       <section
@@ -25,14 +23,8 @@ const Home = () => {
           </span>
         </div>
       </section>
-      <section>
-        <Meals></Meals>
-      </section>
-      <section>
-        <Features></Features>
-      </section>
     </div>
   );
 };
 
-export default Home;
+export default TopBanner;

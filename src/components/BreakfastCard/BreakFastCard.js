@@ -1,7 +1,7 @@
-import { ShoppingCartIcon } from "@heroicons/react/outline";
 import React from "react";
+import { ShoppingCartIcon } from "@heroicons/react/outline";
 
-const MealCard = ({ meal }) => {
+const BreakFastCard = ({ meal }) => {
   const { name, origin, img, price } = meal;
   return (
     <div>
@@ -38,4 +38,4 @@ const MealCard = ({ meal }) => {
   );
 };
 
-export default MealCard;
+export default BreakFastCard;
